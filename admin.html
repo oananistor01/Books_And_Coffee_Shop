@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books And Coffee Shop</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    /> -->
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header-banner -->
+    <header>
+      <a href="index.html"><h1>Happy people read and drink coffee</h1></a>
+    </header>
+
+    <!-- header-navbar -->
+    <div
+      class="container-nav nav-text-color topBotomBordersOut"
+      id="container-navbar"
+    >
+      <a class="active" href="index.html">HOME</a>
+      <a href="books.html">BOOKS</a>
+      <a href="coffee.html">COFFEE</a>
+      <a href="admin.html"
+        ><i class="fas fa-lock d-inline-block align-text-top"></i>&nbsp ADMIN</a
+      >
+      <a href="cart.html"
+        ><i class="fas fa-shopping-cart"></i
+        ><span
+          class="
+            position-absolute
+            top-0
+            start-100
+            translate-middle
+            badge
+            rounded-pill
+            bg-dark
+          "
+          id="cart-basket-counter"
+          >0</span
+        >
+      </a>
+    </div>
+
+    <!-- add new products button -->
+    <div id="main-admin">
+      <div id="show-banner">
+        <a href="#admin-add-item-container">
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            id="btn-add-product"
+          >
+            <i class="fas fa-plus-circle"></i> Add new products
+          </button>
+        </a>
+      </div>
+
+      <!-- all products table -->
+      <div id="admin-products">
+        <table
+          class="table table-striped table-hover table-sm table-responsive"
+          id="admin-table"
+        >
+          <thead id="thead" class="">
+            <tr>
+              <th>#ID</th>
+              <th>TITLE</th>
+              <th>AUTHOR</th>
+              <th>PRICE</th>
+              <th>STOCK</th>
+              <th>DELETE</th>
+            </tr>
+          </thead>
+          <tbody id="table-body-admin"></tbody>
+        </table>
+      </div>
+
+      <!-- input field -->
+      <div class="container products" id="admin-add-item-container">
+        <div class="card card-body card-form">
+          <h3>Add new product</h3>
+          <div class="form-group" id="first-input">
+            <input
+              type="text"
+              id="image"
+              class="form-control form-control-sm"
+              placeholder="image"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              id="title"
+              class="form-control form-control-sm"
+              placeholder="title"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              id="author"
+              class="form-control form-control-sm"
+              placeholder="author (for books only)"
+            />
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                id="price"
+                class="form-control form-control-sm"
+                placeholder="price (numbers only)"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                id="stock"
+                class="form-control form-control-sm"
+                placeholder="stock (numbers only)"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              id="category"
+              class="form-control form-control-sm"
+              placeholder="category ('book' or 'coffee')"
+            />
+          </div>
+
+          <div class="form-group">
+            <textarea
+              id="description"
+              class="form-control form-control-sm"
+              placeholder="description"
+            ></textarea>
+          </div>
+
+          <div>
+            <button class="btn btn-success btn-sm" id="add-product">
+              <i class="fas fa-check"></i>
+              Save
+            </button>
+            <button class="btn btn-secondary btn-sm" id="cancel-add-product">
+              <i class="fas fa-times"></i>
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/admin.js" type="module"></script>
+  </body>
+</html>

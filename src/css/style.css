@@ -1,0 +1,660 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  color: #555;
+  background-color: rgb(247, 248, 246);
+}
+
+/**************** HEADER with the image banner ********************/
+header {
+  margin: 0 auto;
+  padding: 1.5em 3em;
+  text-align: center;
+  background-image: url("../../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  color: #555;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 5px;
+  font-family: "Lobster", cursive;
+}
+
+/********************** NAVBAR container *****************************/
+div#container-navbar {
+  margin: 0 auto;
+  padding: 0.6em 3em;
+  text-align: center;
+  box-shadow: 0px 5px 13px rgb(228, 228, 228);
+  position: fixed;
+  top: 101px;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+div#container-navbar a {
+  color: #555;
+  text-decoration: none;
+  font: 20px "Raleway";
+  margin: 0px 25px;
+  padding: 5px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.nav-text-color {
+  background: white;
+}
+
+.badge {
+  padding: 0.3em 0.5em;
+  font-size: 0.5em;
+  font-weight: 500;
+}
+.translate-middle {
+  transform: translate(-58%, -10%) !important;
+}
+
+/************* NAVBAR - top and bottom borders go out *******************/
+div.topBotomBordersOut a:before,
+div.topBotomBordersOut a:after {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #555;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before {
+  top: 0px;
+  transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after {
+  bottom: 0px;
+  transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before,
+div.topBotomBordersOut a:hover:after {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/*********************** INDEX main section *********************/
+#main {
+  margin-top: 150px;
+}
+
+#main h6 {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 700;
+}
+
+#main #intro-text {
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.main-lower-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 500px;
+}
+
+#box1 {
+  background-image: url("../../img/book.jpg");
+  /* background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.3) 50%
+    ),
+    url("../../img/book.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45%;
+  padding: 65px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+#box1 span,
+#box1 button,
+#box2 span,
+#box2 button {
+  background: rgb(222 220 220 / 50%);
+}
+
+#box1 p {
+  text-align: left;
+}
+
+#box2 {
+  background-image: url("../../img/coffee.jpg");
+  /* background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.3) 50%
+    ),
+    url("../../img/coffee.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45%;
+  padding: 65px;
+}
+
+#btn-color:hover {
+  background-color: transparent;
+  color: black;
+  font-weight: 900;
+}
+
+#box1 .text-color,
+#box2 .text-color {
+  text-align: left;
+  font-weight: 700;
+  color: rgb(66, 66, 66);
+  font-size: 1.5rem;
+  /* color: white; */
+}
+
+/**************************** FOOTER ***************************/
+footer {
+  text-align: center;
+  color: #555;
+  margin-top: 20px;
+  padding: 0.5em 3em;
+  font-size: 11px;
+}
+
+/******************* BOOKS & COFFEE PAGE ******************/
+#main-products {
+  margin-top: 200px;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-weight: 800;
+  overflow: hidden;
+  position: static;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-author {
+  font-size: 0.8rem;
+  overflow: hidden;
+  position: static;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/************************ DETAILS PAGE *************************/
+#details-container {
+  margin-top: 210px;
+  max-width: 1056px;
+}
+#card-description {
+  font-size: 0.8rem;
+}
+
+#details-add-to-cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+#product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2rem 2rem;
+}
+
+.title-style {
+  white-space: pre-wrap;
+}
+
+.successufully-added {
+  padding: 6px 0;
+  background: rgb(186, 189, 188, 0.7);
+  color: black;
+  top: 155px;
+  position: fixed;
+  z-index: 99;
+  font-size: 18px;
+  text-align: center;
+  max-width: 1056px;
+  left: 0;
+  right: 0;
+}
+
+/************************* ADMIN PAGE *************************/
+#main-admin {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+  gap: 30px;
+}
+
+.card-form {
+  gap: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#admin-add-item-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#admin-add-item-container h3 {
+  font-weight: 800;
+}
+
+#btn-add-product:hover {
+  background-color: #555;
+}
+
+.delete-product {
+  border: none;
+}
+
+.admin-table-data,
+.cart-table-data {
+  padding: 0 5px 0 5px;
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.admin-title-link {
+  text-decoration: none;
+  color: #555;
+  cursor: pointer;
+}
+
+.admin-title-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.success,
+.error {
+  color: black;
+  font-size: 12px;
+  padding: 5px;
+  text-align: left;
+}
+
+.success {
+  width: 70%;
+  padding: 10px 0;
+  background: rgb(186, 189, 188, 0.6);
+  top: 176px;
+  position: fixed;
+  z-index: 99;
+  font-size: 20px;
+  text-align: center;
+}
+
+.error {
+  width: 100%;
+  background-color: rgb(245, 98, 98);
+  padding-left: 25px;
+}
+
+.error-input-border {
+  border: 1px solid rgb(245, 98, 98);
+}
+
+#first-input p {
+  margin-bottom: 0.3rem;
+}
+
+/**************************** SHOPPING CART PAGE********************************/
+
+#cart-container {
+  margin: 200px auto 100px auto;
+  max-width: 1041px;
+  width: 90%;
+}
+
+.total-cart-row {
+  display: flex;
+  margin: 0;
+  border-radius: 1rem;
+  border: transparent;
+  width: 100%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#admin-table {
+  margin-bottom: 35px;
+}
+
+.cart-left {
+  background-color: #fff;
+  padding: 4vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary-right {
+  background-color: #ddd;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 4vh;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-small-font {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.total-price-font {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+#cart-thead {
+  color: #555;
+  font-size: 0.8rem;
+  /* border-top: 1px soldid red; */
+}
+
+.cart-title h4 {
+  margin-bottom: 2.5rem;
+}
+
+.field-product-quantity {
+  width: 60px;
+  margin: 0 auto;
+}
+
+/******************* MOBILE RESPONSIVE **********************/
+
+@media (max-width: 500px) {
+  /****************** INDEX PAGE - Mob. Resp. *****************/
+  header h1 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  div#container-navbar {
+    padding: 0.3em 0.5em;
+    top: 74px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  div#container-navbar a {
+    font: 12px "Raleway";
+    padding: 4px 1px;
+    margin: 0px 11px;
+  }
+
+  .translate-middle {
+    transform: translate(-36%, -16%) !important;
+  }
+
+  #main {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main h6 {
+    padding-top: 23px;
+  }
+
+  #main #intro-text {
+    padding-bottom: 0px;
+  }
+
+  .main-upper-section {
+    padding: 1em 1.5em;
+  }
+
+  .main-lower-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #box1,
+  #box2 {
+    width: 82%;
+  }
+
+  #box1 .text-color,
+  #box2 .text-color {
+    font-size: 1.2rem;
+  }
+
+  .btn-outline-dark {
+    color: black;
+    border-color: black;
+  }
+
+  footer {
+    margin-top: 0px;
+  }
+
+  /****************** BOOKS & COFFEE PAGE - Mob. Resp. *****************/
+  #main-products {
+    margin-top: 130px;
+  }
+
+  /****************** DETAILS PAGE - Mob. Resp. *****************/
+  #details-container {
+    margin-top: 142px;
+    width: 85%;
+  }
+
+  .rounded-start {
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0.25rem !important;
+    padding: 25px;
+  }
+
+  .successufully-added {
+    top: 109px;
+    font-size: 15px;
+    padding: 4px 0;
+  }
+
+  /****************** ADMIN PAGE - Mob. Resp. *****************/
+  #main-admin {
+    width: 90%;
+    margin: 150px auto 50px auto;
+    gap: 30px;
+  }
+
+  #thead {
+    font-size: 11px;
+  }
+
+  .table-row td {
+    font-size: 12px;
+  }
+
+  .form-control-sm {
+    font-size: 0.775rem;
+  }
+  .card-form {
+    gap: 10px;
+  }
+
+  .success {
+    width: 90%;
+    top: 119px;
+    font-size: 15px;
+    padding: 5px 0;
+  }
+
+  /****************** CART PAGE - Mob. Resp. *****************/
+  #cart-container {
+    margin: 140px auto 50px auto;
+    width: 93%;
+  }
+  .total-cart-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart-left {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+    padding: 2vh;
+  }
+
+  .summary-right {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 100%;
+    border-top-right-radius: 0;
+    padding: 2vh;
+  }
+  #btn-add-product {
+    font-size: 11px;
+  }
+
+  .td-img {
+    display: none;
+  }
+}
+
+/******************* TABLET RESPONSIVE **********************/
+
+@media (min-width: 501px) and (max-width: 768px) {
+  header h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  #main h6 {
+    font-size: 1.2rem;
+    padding-top: 20px;
+  }
+
+  #main p {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 13px;
+  }
+
+  div#container-navbar {
+    padding: 0.3em 2em;
+    top: 84px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  div#container-navbar a {
+    margin: 0px;
+    padding: 5px 0px;
+  }
+
+  .translate-middle {
+    transform: translate(-12%, -19%) !important;
+  }
+
+  #main-admin {
+    width: 80%;
+    margin-top: 210px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .summary-right,
+  .cart-left {
+    padding: 2vh;
+  }
+
+  .success {
+    width: 80%;
+    top: 147px;
+  }
+
+  #details-container {
+    margin-top: 178px;
+  }
+
+  .successufully-added {
+    padding: 4px 0;
+    top: 135px;
+  }
+
+  #cart-container {
+    margin: 160px auto 50px auto;
+  }
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "image": "img/books/palm_trees_in_the_snow.jpg",
+    "title": "Palm Trees in the Snow",
+    "author": "Luz Gabas",
+    "price": 14.95,
+    "description": "At once an epic family drama and a sweeping love story that spans both an ocean and a generation, Palm Trees in the Snow is an emotionally gripping and historically vivid tale of the secrets that can destroy a family—and the bonds that endure.",
+    "category": "book",
+    "stock": 10,
+    "id": "1"
+  },
+  {
+    "image": "img/books/it_ends_with_us.jpg",
+    "title": "It Ends with Us",
+    "author": "Colleen Hoover",
+    "price": 14.49,
+    "description": "In this “brave and heartbreaking novel that digs its claws into you and doesn’t let go, long after you’ve finished it” (Anna Todd, New York Times bestselling author) from the #1 New York Times bestselling author of All Your Perfects, a workaholic with a too-good-to-be-true romance can’t stop thinking about her first love.",
+    "category": "book",
+    "stock": 10,
+    "id": "2"
+  },
+  {
+    "image": "img/books/hooky.jpg",
+    "title": "Hooky",
+    "author": "Miriam Bonastre Tur",
+    "price": 24.99,
+    "description": "Two twins, one prophecy, and a whole lot of hijinks. From WEBTOON, the #1 digital comic platform, comes a fantastical story about twin siblings Dani and Dorian who have missed the bus to magic school and scramble to find a mentor  to teach them before their parents find out. Perfect for fans of THE OKAY WITCH and the 5 Worlds series.",
+    "category": "book",
+    "stock": 10,
+    "id": "3"
+  },
+  {
+    "image": "img/books/ordinary_heroes.jpg",
+    "title": "Ordinary Heroes: A Memoir of 9/11",
+    "author": "Joseph Pfeifer",
+    "price": 22.99,
+    "description": "True heroes are almost by definition 'ordinary'. Galvanized in a moment, they are individuals who often unexpectedly (to others and to themselves) step forward toward need and persevere. Joseph Pfeifer is one of those heroes, one with a calm, steady and ferocious stride What he saw, what he experienced on September 11, and how it changed the trajectories of his life make for a heartbreaking, eye-opening, and awe inspiring read. From the first FDNY chief to respond to the 9/11 attacks, an intimate memoir and a tribute to those who died that others might live.",
+    "category": "book",
+    "stock": 10,
+    "id": "4"
+  },
+  {
+    "image": "img/books/the_sisters_of_auschwitz.jpg",
+    "title": "The Sisters of Auschwitz: The True Story of Two Jewish Sisters' Resistance in the Heart of Nazi Territory",
+    "author": "Roxane van Iperen",
+    "price": 15.49,
+    "description": "The unforgettable story of two unsung heroes of World War II: sisters Janny and Lien Brilleslijper who joined the Dutch Resistance, helped save dozen of lives, were captured by the Nazis, and ultimately survived the Holocaust.",
+    "category": "book",
+    "stock": 10,
+    "id": "5"
+  },
+  {
+    "image": "img/books/the_glass_castle.jpg",
+    "title": "The Glass Castle",
+    "author": "Jeannette Walls",
+    "price": 14.99,
+    "description": "MORE THAN EIGHT YEARS ON THE NEW YORK TIMES BESTSELLER LIST. The Glass Castle is a remarkable memoir of resilience and redemption, and a revelatory look into a family at once deeply dysfunctional and uniquely vibrant. When sober, Jeannette’s brilliant and charismatic father captured his children’s imagination, teaching them physics, geology, and how to embrace life fearlessly. But when he drank, he was dishonest and destructive. Her mother was a free spirit who abhorred the idea of domesticity and didn’t want the responsibility of raising a family.",
+    "category": "book",
+    "stock": 10,
+    "id": "6"
+  },
+  {
+    "image": "img/books/the_book_thief.jpg",
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "price": 12.99,
+    "description": "The extraordinary, beloved novel about the ability of books to feed the soul even in the darkest of times. When Death has a story to tell, you listen. It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will become busier still. Liesel Meminger is a foster girl living outside of Munich, who scratches out a meager existence for herself by stealing when she encounters something she can’t resist–books. With the help of her accordion-playing foster father, she learns to read and shares her stolen books with her neighbors during bombing raids as well as with the Jewish man hidden in her basement.",
+    "category": "book",
+    "stock": 10,
+    "id": "7"
+  },
+  {
+    "image": "img/books/billy_summers.jpg",
+    "title": "Billy Summers",
+    "author": "Stephen King",
+    "price": 21.0,
+    "description": "From legendary storyteller Stephen King, whose “restless imagination is a power that cannot be contained” (The New York Times Book Review), comes a thrilling new novel about a good guy in a bad job. Billy Summers is a man in a room with a gun. He’s a killer for hire and the best in the business. But he’ll do the job only if the target is a truly bad guy. And now Billy wants out. But first there is one last hit. Billy is among the best snipers in the world, a decorated Iraq war vet, a Houdini when it comes to vanishing after the job is done. So what could possibly go wrong? How about everything. This spectacular can’t-put-it-down novel is part war story, part love letter to small town America and the people who live there, and it features one of the most compelling and surprising duos in King fiction, who set out to avenge the crimes of an extraordinarily evil man. It’s about love, luck, fate, and a complex hero with one last shot at redemption. You won’t put this story down, and you won’t forget Billy.",
+    "category": "book",
+    "stock": 10,
+    "id": "8"
+  },
+  {
+    "image": "img/books/the_song_of_achilles.jpg",
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "price": 13.99,
+    "description": "A thrilling, profoundly moving, and utterly unique retelling of the legend of Achilles and the Trojan War from the bestselling author of Circe. A tale of gods, kings, immortal fame, and the human heart, The Song of Achilles is a dazzling literary feat that brilliantly reimagines Homer’s enduring masterwork, The Iliad. An action-packed adventure, an epic love story, a marvelously conceived and executed page-turner, Miller’s monumental debut novel has already earned resounding acclaim from some of contemporary fiction’s brightest lights—and fans of Mary Renault, Bernard Cornwell, Steven Pressfield, and Colleen McCullough’s Masters of Rome series will delight in this unforgettable journey back to ancient Greece in the Age of Heroes",
+    "category": "book",
+    "stock": 10,
+    "id": "9"
+  },
+  {
+    "image": "img/books/tomatoes_for_neela.jpg",
+    "title": "Tomatoes for Neela",
+    "author": "Padma Lakshmi",
+    "price": 14.99,
+    "description": "Neela loves cooking with her mama and writing down the recipes in her notebook. It makes her feel closer to her paati who lives far away in India. On Saturdays, Neela and Amma go to the green market and today they are buying tomatoes to make Paati's famous sauce. But first, Neela needs to learn about all the different kinds of tomatoes they can pick from. And as Neela and Amma cook together, they find a way for Paati to share in both the love and the flavors of the day.",
+    "category": "book",
+    "stock": 10,
+    "id": "10"
+  },
+  {
+    "image": "img/books/the_seven_husbands_of_evelyn_hugo.jpg",
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "price": 14.49,
+    "description": "Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one is more astounded than Monique herself. Why her? Why now? Monique is not exactly on top of the world. Her husband has left her, and her professional life is going nowhere. Regardless of why Evelyn has selected her to write her biography, Monique is determined to use this opportunity to jumpstart her career.",
+    "category": "book",
+    "stock": 10,
+    "id": "11"
+  },
+  {
+    "image": "img/books/beautiful_world_where_are_you.jpg",
+    "title": "Beautiful World, Where Are You",
+    "author": "Sally Rooney",
+    "price": 22.49,
+    "description": "Alice, a novelist, meets Felix, who works in a warehouse, and asks him if he’d like to travel to Rome with her. In Dublin, her best friend, Eileen, is getting over a break-up, and slips back into flirting with Simon, a man she has known since childhood. Alice, Felix, Eileen, and Simon are still young—but life is catching up with them. They desire each other, they delude each other, they get together, they break apart. Will they find a way to believe in a beautiful world?",
+    "category": "book",
+    "stock": 10,
+    "id": "12"
+  },
+  {
+    "image": "img/books/the_accidental_bestseller.jpg",
+    "title": "The Accidental Bestseller",
+    "author": "Wendy Wax",
+    "price": 17.0,
+    "description": "Once upon a time four aspiring authors met at their very first writers' conference. Ten years later they're still friends, survivors of the ultra-competitive New York publishing world. Mallory St. James is a workaholic whose bestsellers support a lavish lifestyle. Tanya Mason is a single mother juggling two jobs, two kids, and too many deadlines. Faye Truett is the wife of a famous televangelist and the author of inspirational romances: no one would ever guess her explosive secret. Kendall Aims's once-promising career is on the skids-and so is her marriage. Her sales are dismal, her new editor detests her work-and her husband is cheating. Barely able to think, let alone meet her final deadline, Kendall holes up in a mountain cabin to confront a blank page and a blanker future. But her friends won't let her face this trial alone. Together they collaborate on a novel using their own lives as fodder, assuming no one will ever discover the truth behind their words. No one is more surprised than they are when the book becomes a runaway bestseller. But with success comes scrutiny and scandal...as these four best friends suddenly realize how little they've truly known each other.",
+    "category": "book",
+    "stock": 10,
+    "id": "13"
+  },
+  {
+    "image": "img/books/apples_never_fall.jpg",
+    "title": "Apples Never Fall",
+    "author": "Liane Moriarty",
+    "price": 22.99,
+    "description": "The Delaney family love one another dearly—it’s just that sometimes they want to murder each other ... If your mother was missing, would you tell the police? Even if the most obvious suspect was your father? This is the dilemma facing the four grown Delaney siblings.",
+    "category": "book",
+    "stock": 10,
+    "id": "14"
+  },
+  {
+    "image": "img/books/the_night_she_disappeared.jpg",
+    "title": "The Night She Disappeared",
+    "author": "Lisa Jewell",
+    "price": 28.0,
+    "description": "On a beautiful summer night in a charming English suburb, a young woman and her boyfriend disappear after partying at the massive country estate of a new college friend. One year later, a writer moves into a cottage on the edge of the woods that border the same estate. Known locally as the Dark Place, the dense forest is the writer’s favorite area for long walks and it’s on one such walk that she stumbles upon a mysterious note that simply reads, “DIG HERE.” Could this be a clue towards what has happened to the missing young couple? And what exactly is buried in this haunted ground?",
+    "category": "book",
+    "stock": 10,
+    "id": "15"
+  },
+  {
+    "image": "img/books/amazon_unbound.jpg",
+    "title": "Amazon Unbound: Jeff Bezos and the Invention of a Global Empire",
+    "author": "Brad Stone",
+    "price": 25.49,
+    "description": "In Amazon Unbound, Brad Stone presents a deeply reported, vividly drawn portrait of how a retail upstart became one of the most powerful and feared entities in the global economy. Stone also probes the evolution of Bezos himself—who started as a geeky technologist totally devoted to building Amazon, but who transformed to become a fit, disciplined billionaire with global ambitions; who ruled Amazon with an iron fist, even as he found his personal life splashed over the tabloids.",
+    "category": "book",
+    "stock": 10,
+    "id": "16"
+  },
+  {
+    "image": "img/books/the_lost_city_of_z.jpg",
+    "title": "The Lost City of Z: A Tale of Deadly Obsession in the Amazon",
+    "author": "David Grann",
+    "price": 15.95,
+    "description": "In 1925, the legendary British explorer Percy Fawcett ventured into the Amazon jungle, in search of a fabled civilization. He never returned. Over the years countless perished trying to find evidence of his party and the place he called “The Lost City of Z.” In this masterpiece of narrative nonfiction, journalist David Grann interweaves the spellbinding stories of Fawcett’s quest for “Z” and his own journey into the deadly jungle, as he unravels the greatest exploration mystery of the twentieth century.",
+    "category": "book",
+    "stock": 10,
+    "id": "17"
+  },
+  {
+    "image": "img/books/taste.jpg",
+    "title": "Taste: My Life Through Food",
+    "author": "Stanley Tucci",
+    "price": 22.49,
+    "description": "From award-winning actor and food obsessive Stanley Tucci comes an intimate and charming memoir of life in and out of the kitchen.",
+    "category": "book",
+    "stock": 10,
+    "id": "18"
+  },
+  {
+    "image": "img/books/home_preserving.jpg",
+    "title": "Ball Complete Book of Home Preserving: 400 Delicious and Creative Recipes for Today",
+    "author": "Judi Kingry (Editor), Lauren Devine (Editor), Sarah Page (Editor)",
+    "price": 19.95,
+    "description": "From the experts, the updated bible in home preserving. The book includes 400 innovative recipes for salsas, savory sauces, pickles, chutneys, relishes and of course, jams, jellies, and fruit spreads. Comprehensive directions on safe canning and preserving methods plus lists of required equipment and utensils. Specific instructions for first-timers and handy tips for the experienced make this book a valuable addition to any kitchen library.",
+    "category": "book",
+    "stock": 10,
+    "id": "19"
+  },
+  {
+    "image": "img/books/anne_frank_the_diary_of_a_young_girl.jpg",
+    "title": "The Diary of a Young Girl: The Definitive Edition",
+    "author": "Anne Frank, Mirjam Pressler (Editor), Otto M. Frank (Editor)",
+    "price": 7.99,
+    "description": "Discovered in the attic in which she spent the last years of her life, Anne Frank’s remarkable diary has since become a world classic—a powerful reminder of the horrors of war and an eloquent testament to the human spirit.",
+    "category": "book",
+    "stock": 10,
+    "id": "20"
+  },
+  {
+    "image": "img/books/first_friends.jpg",
+    "title": "First Friends: The Powerful, Unsung (And Unelected) People Who Shaped Our Presidents",
+    "author": "Gary Ginsberg",
+    "price": 25.49,
+    "description": "In the bestselling tradition of The Presidents Club and Presidential Courage, White House history as told through the stories of the best friends and closest confidants of American presidents.",
+    "category": "book",
+    "stock": 10,
+    "id": "21"
+  },
+  {
+    "image": "img/books/the_dark_hours.jpg",
+    "title": "The Dark Hours",
+    "author": "Michael Connelly",
+    "price": 29.0,
+    "description": "Has a killer lain dormant for years only to strike again on New Year’s Eve? LAPD Detective Renée Ballard and Harry Bosch team up to find justice for an innocent victim in the new thriller from #1 New York Times bestselling author Michael Connelly.",
+    "category": "book",
+    "stock": 10,
+    "id": "22"
+  },
+  {
+    "image": "img/books/moonflower_murders.jpg",
+    "title": "Moonflower Murders",
+    "author": "Anthony Horowitz",
+    "price": 25.99,
+    "description": "A mystery novel wrapped around a whole other mystery novel. This is not a two-for-one special—but instead, an extremely fun and compulsive read that will satiate the most devoted mystery fan as well as convert the, you know, finicky eaters.",
+    "category": "book",
+    "stock": 10,
+    "id": "23"
+  },
+  {
+    "image": "img/books/some_choose_darkness.jpg",
+    "title": "Some Choose Darkness",
+    "author": "Charlie Donlea",
+    "price": 15.95,
+    "description": "Forensic reconstructionist Rory Moore sheds light on cold-case homicides by piecing together crime scene details others fail to see. Cleaning out her late father’s law office after his burial, she receives a call that plunges her into a decades-old case.",
+    "category": "book",
+    "stock": 10,
+    "id": "24"
+  },
+  {
+    "image": "img/books/the_butterfly_house.jpg",
+    "title": "The Butterfly House",
+    "author": "Katrine Engberg",
+    "price": 13.99,
+    "description": "'Solve the case' is a line that crops up halfway through The Butterfly House. That's the goal of Nordic noir, and Engberg sticks to the genre tradition faithfully. The language is direct. The case is simple enough: find the killer who is dumping bodies into fountains of Copenhagen. Engberg brings us precariously close to each of the suspects. Detective Jeppe Korner has more at stake than simply finding the killer. Excellent pacing keeps us riveted and our pulse increases until the sound of our pumping heart startles us. The notion of our fragile existence hangs on every page.",
+    "category": "book",
+    "stock": 10,
+    "id": "25"
+  },
+  {
+    "image": "img/books/let's_roll.jpg",
+    "title": "Let's Roll!: Ordinary People, Extraordinary Courage",
+    "author": "Lisa Beamer, Ken Abraham (With)",
+    "price": 9.99,
+    "description": "The best-seller that has brought comfort and hope to millions in the wake of 9/11 is now available in softcover! Let's Roll!—the moving, behind-the-scenes story of United Flight 93 hero Todd Beamer and his widow, Lisa—is so much more than a tribute. A message of character, courage, and undeniable faith in the face of horrifying tragedy, it encourages anyone who reads it to live real life right now . . . and to have confidence and hope for the future.",
+    "category": "book",
+    "stock": 10,
+    "id": "26"
+  },
+  {
+    "image": "img/books/the_power_of_now.jpg",
+    "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+    "author": "Eckhart Tolle",
+    "price": 12.99,
+    "description": "Much more than simple principles and platitudes, The Power of Now takes readers on an inspiring spiritual journey to find their true and deepest self and reach the ultimate in personal growth and spirituality: the discovery of truth and light.",
+    "category": "book",
+    "stock": 10,
+    "id": "27"
+  },
+  {
+    "image": "img/books/untamed.jpg",
+    "title": "Untamed",
+    "author": "Glennon Doyle",
+    "price": 20.99,
+    "description": "More than just a memoir, this book takes the reader on a journey of self-discovery. It seeks to liberate women from the societal expectations that bind them, to honor beauty and rage equally — it speaks to the soul. While Doyle’s previous books Love Warrior and Carry On, Warrior started the conversation, Untamed started a movement. Her legions of fans (old and new) have found within themselves those three little words, “there she is,” and have held onto this book tight as a rallying cry for what it means to be a woman today.",
+    "category": "book",
+    "stock": 10,
+    "id": "28"
+  },
+  {
+    "image": "img/books/let_us_dream.jpg",
+    "title": "Let Us Dream: The Path to a Better Future",
+    "author": "Pope Francis, Austen Ivereigh",
+    "price": 19.99,
+    "description": "In this uplifting and practical book, written in collaboration with his biographer, Austen Ivereigh, the preeminent spiritual leader explains why we must—and how we can—make the world safer, fairer, and healthier for all people now. Let Us Dream is an epiphany, a call to arms, and a pleasure to read. It is Pope Francis at his most personal, profound and passionate. With this book and with open hearts, we can change the world.",
+    "category": "book",
+    "stock": 10,
+    "id": "29"
+  },
+  {
+    "image": "img/books/ugly_love.jpg",
+    "title": "Ugly Love",
+    "author": "Colleen Hoover",
+    "price": 14.49,
+    "description": "From Colleen Hoover, the #1 New York Times bestselling author of It Ends with Us, a heart-wrenching love story that proves attraction at first sight can be messy.",
+    "category": "book",
+    "stock": 10,
+    "id": "30"
+  },
+  {
+    "image": "img/books/the_perfect_day_to_boss_up.jpg",
+    "title": "The Perfect Day to Boss Up: A Hustler's Guide to Building Your Empire",
+    "author": "Rick Ross, Neil Martinez-Belkin (With)",
+    "price": 23.49,
+    "description": "A captivating and inspiring guide to building an untouchable empire from mud to marble, no matter what obstacles stand in the way. Rick Ross is a hip-hop icon and a towering figure in the business world, but his path to success was not always easy. As Ross explains, “It doesn’t matter what’s going on. Even the most dire situation is just another opportunity to boss up.”",
+    "category": "book",
+    "stock": 10,
+    "id": "31"
+  },
+  {
+    "image": "img/books/the_power_of_chowa.jpg",
+    "title": "The Power of Chowa: Finding Your Inner Strength Through the Japanese Concept of Balance and Harmony",
+    "author": "Akemi Tanaka",
+    "price": 19.99,
+    "description": "For fans of Hygge and Lagom comes this inspiring guide, illustrated with beautiful artwork, that introduces the Japanese wisdom of chowa—the search for balance—to help us find harmony and peace in every area of our lives.",
+    "category": "book",
+    "stock": 10,
+    "id": "32"
+  },
+  {
+    "image": "img/books/what_happened_to_you.jpg",
+    "title": "What Happened to You?: Conversations on Trauma, Resilience, and Healing",
+    "author": "Oprah Winfrey, Bruce D. Perry",
+    "price": 21.49,
+    "description": "Our earliest experiences shape our lives far down the road, and What Happened to You? provides powerful scientific and emotional insights into the behavioral patterns so many of us struggle to understand. This book is going to change the way you see your life.",
+    "category": "book",
+    "stock": 10,
+    "id": "33"
+  },
+  {
+    "image": "img/books/happy_people_read_and_drink_coffee.jpg",
+    "title": "Happy People Read and Drink Coffee",
+    "author": "Agnes Martin-Lugand",
+    "price": 14.99,
+    "description": "The international phenomenon described as Under the Tuscan Sun set in Ireland, about a recent widow who moves to the Irish coast and begins a tumultuous but ultimately healing relationship with her neighbor, a brooding Irish photographer. A heartbreaking story of love and loss that will twist readers up in knots...essential.",
+    "category": "book",
+    "stock": 10,
+    "id": "34"
+  },
+  {
+    "image": "img/books/becoming.jpg",
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "price": 15.99,
+    "description": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States. Hers is a hard-fought life of intelligence and compassion, set against a hard arc of history and sculpted around principles of service. Michelle Obama sets the bar high for herself, and us, but is also our biggest cheerleader. Intimate and empowering, you may be just a little sad to give up her “company” when you reach the last page.",
+    "category": "book",
+    "stock": 10,
+    "id": "35"
+  },
+  {
+    "image": "img/coffee/cafe_mocha.png",
+    "title": "Caffè Mocha",
+    "author": "",
+    "price": 3.4,
+    "description": "Our rich, full-bodied espresso combined with bittersweet mocha sauce and steamed milk, then topped with sweetened whipped cream. The classic coffee drink that always sweetly satisfies.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "36"
+  },
+  {
+    "image": "img/coffee/caffe_americano.png",
+    "title": "Caffè Americano",
+    "author": "",
+    "price": 2.4,
+    "description": "Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance. ",
+    "category": "coffee",
+    "stock": 50,
+    "id": "37"
+  },
+  {
+    "image": "img/coffee/cappuccino.png",
+    "title": "Cappuccino",
+    "author": "",
+    "price": 2.9,
+    "description": "Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam. An alchemy of barista artistry and craft.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "38"
+  },
+  {
+    "image": "img/coffee/espresso2.jpg",
+    "title": "Espresso",
+    "author": "",
+    "price": 2.1,
+    "description": "Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "39"
+  },
+  {
+    "image": "img/coffee/iced_caramel.png",
+    "title": "Iced Caramel Macchiato",
+    "author": "",
+    "price": 3.4,
+    "description": "We combine our rich, full-bodied espresso with vanilla-flavored syrup, milk and ice, then top it off with a caramel drizzle for an oh-so-sweet finish.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "40"
+  },
+  {
+    "image": "img/coffee/iced_latte.png",
+    "title": "Iced Caffè Latte",
+    "author": "",
+    "price": 2.9,
+    "description": "Our dark, rich espresso combined with milk and served over ice. A perfect milk-forward cooldown.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "41"
+  },
+  {
+    "image": "img/coffee/latte_macchiato.png",
+    "title": "Latte Macchiato",
+    "author": "",
+    "price": 2.9,
+    "description": "Our dark, rich espresso balanced with steamed milk and a light layer of foam. A perfect milk-forward warm-up.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "42"
+  },
+  {
+    "image": "img/coffee/caramel_latte_vanilla.png",
+    "title": "Iced Caramel Latte & Vanilla Cream",
+    "author": "",
+    "price": 3.4,
+    "description": "Our slow-steeped custom blend of Cold Brew coffee accented with vanilla and topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup. It's over-the-top and super-smooth.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "43"
+  },
+  {
+    "image": "img/coffee/vanilla_latte.png",
+    "title": "Vanilla Latte",
+    "author": "",
+    "price": 3.3,
+    "description": "Extra-smooth Blonde Espresso, velvety steamed milk and vanilla syrup come together to create a delightful new twist on a beloved espresso classic. An ideal cup for those who prefer a lighter-roasted coffee.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "44"
+  },
+  {
+    "image": "img/coffee/spiced_expresso_flat_white.png",
+    "title": "Spiced Espresso Flat White",
+    "author": "",
+    "price": 2.9,
+    "description": "We add freshly steamed milk and cinnamon dolce-flavored syrup to our classic espresso, topped with sweetened whipped cream and a cinnamon dolce topping to bring you specialness in a treat.",
+    "category": "coffee",
+    "stock": 50,
+    "id": "45"
+  }
+]
