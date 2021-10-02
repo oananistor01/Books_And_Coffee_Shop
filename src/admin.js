@@ -44,7 +44,7 @@ function addOrEditProduct() {
       .put(`${productsURL}/${id}`, productToEdit)
       .then(() => getAllProducts()); //call getAllProducts() to update the table of products upon editing one of them
 
-    ui.clearFields(); //clearing the fields after saving the edited product to the list
+    ui.clearFields(); //clearing the input fields after saving the edited product to the list
     ui.showSuccessBanner("Product successfully edited!"); // this ui mehtod is called in order to display a success-banner after EDITING a product from the API list
     id = ""; //reseting the ID, because the variable 'id' is used in a global scope
     titleLinkClicked = false; //resetting the value to false after edit is done

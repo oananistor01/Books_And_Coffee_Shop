@@ -15,10 +15,8 @@ window.onload = () => {
     ui.showProductInCart();
     calculateTotalPrice();
     ui.navCartIconCounter();
-    // updateQuantity(); //only if navCartIconCount is calculated according to the quantity from rows input
 
     cartTable.addEventListener("click", removeFromCartAndLocalStorage);
-
     cartTable.addEventListener("change", updateQuantity);
   });
 };
@@ -29,7 +27,6 @@ function removeFromCartAndLocalStorage(e) {
     // e.target.parentElement.parentElement.parentElement.remove();
 
     let idBtn = e.target.getAttribute("id"); //get the id of the clicked button
-
     let cart = JSON.parse(localStorage.getItem("cart")); //get the cart from local storage
 
     for (let i = 0; i < cart.length; i++) {
@@ -92,7 +89,7 @@ function calculateTotalPrice() {
     subtotalPrice.innerHTML = "€ " + parseFloat(subtotal).toFixed(2); //toFixed() will round or pad with zeros if necessary to meet the specified length.
   }
 
-  //calculate total price, only if subtotal has a value. This is neccessary, because otherwise it always displays the shopping fee as total amount
+  //calculate total price, only if subtotal has a value. This is neccessary, because otherwise it will always display the shopping fee as total amount
   if (subtotal) {
     total += Number(subtotal) + Number(shippingPrice);
     totalPrice.innerHTML = "€ " + parseFloat(total).toFixed(2);

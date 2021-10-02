@@ -120,7 +120,6 @@ class UI {
   showProductInCart() {
     let output = "";
     let cart = JSON.parse(localStorage.getItem("cart")); //getting the cart from local storage
-    // console.log(cart[0].id);
 
     //cart must have at least one item; go through the cart array of products and map each product to the output
     if (cart) {
@@ -220,21 +219,8 @@ class UI {
   }
 
   //update cart icon from navbar, when items are added to the shopping cart
-
-  /******************************** update cart icon => according to local storage length ************************/
   navCartIconCounter() {
     let cart = JSON.parse(localStorage.getItem("cart"));
-
-    // let counter = 0;
-    // if (cart.length > 0) {
-    //   for (let i = 0; i < cart.length + 1; i++) {
-    //     // console.log(cart[i].qt);
-    //     counter = counter + cart[i].qt;
-
-    //     // this.cartBasketCounter.innerHTML = counter++;
-    //     this.cartBasketCounter.innerHTML = counter;
-    //   }
-    // }
 
     let counter = 0;
     cart.forEach((item) => {
@@ -243,25 +229,6 @@ class UI {
 
     this.cartBasketCounter.innerHTML = counter;
   }
-
-  /************************* update cart icon => according to quantity input count  ************************/
-  // navCartIconCounter() {
-  //   let table = document.getElementById("cart-table-body");
-
-  //   if (table) {
-  //     let counter = 0;
-  //     let cartRows = table.querySelectorAll(".cart-table-row");
-  //     console.log(cartRows);
-
-  //     for (let i = 0; i <= cartRows.length - 1; i++) {
-  //       let quantityInput = cartRows[i].querySelector(".quantity").value;
-  //       counter += Number(quantityInput);
-  //     }
-
-  //     this.cartBasketCounter.innerHTML = counter;
-  //     console.log(counter);
-  //   }
-  // }
 }
 
 export const ui = new UI();
