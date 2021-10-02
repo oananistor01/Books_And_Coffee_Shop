@@ -145,10 +145,11 @@ class UI {
                         <div class="form-group field-product-quantity">
                           <input
                             class="form-control form-control-sm quantity"
+                            id="${cart[i].id}"
                             min="1"
                             max="${cart[i].stock}"
                             name="quantity"
-                            value="1"
+                            value="${cart[i].qt}"
                             type="number"
                           />
                         </div>
@@ -221,34 +222,40 @@ class UI {
   //update cart icon from navbar, when items are added to the shopping cart
 
   /******************************** update cart icon => according to local storage length ************************/
-  navCartIconCounter() {
-    let cart = JSON.parse(localStorage.getItem("cart"));
-    if (cart) {
-      let counter = 0;
-
-      for (let i = 0; i < cart.length + 1; i++) {
-        this.cartBasketCounter.innerHTML = counter++;
-      }
-    }
-  }
-
-  /************************* update cart icon => according to quantity input count  ************************/
   // navCartIconCounter() {
-  //   let table = document.getElementById("cart-table-body");
+  //   let cart = JSON.parse(localStorage.getItem("cart"));
 
-  //   if (table) {
+  //   if (cart.length > 0) {
   //     let counter = 0;
-  //     let cartRows = table.querySelectorAll(".cart-table-row");
 
-  //     for (let i = 0; i <= cartRows.length - 1; i++) {
-  //       let quantityInput = cartRows[i].querySelector(".quantity").value;
-  //       counter += Number(quantityInput);
+  //     for (let i = 0; i < cart.length + 1; i++) {
+  //       console.log(cart[i].qt);
+  //       counter = counter + cart[i].qt;
+
+  //       // this.cartBasketCounter.innerHTML = counter++;
+  //       this.cartBasketCounter.innerHTML = counter;
   //     }
-
-  //     this.cartBasketCounter.innerHTML = counter;
-  //     console.log(counter);
   //   }
   // }
+
+  /************************* update cart icon => according to quantity input count  ************************/
+  navCartIconCounter() {
+    let table = document.getElementById("cart-table-body");
+
+    if (table) {
+      let counter = 0;
+      let cartRows = table.querySelectorAll(".cart-table-row");
+      console.log(cartRows);
+
+      for (let i = 0; i <= cartRows.length - 1; i++) {
+        let quantityInput = cartRows[i].querySelector(".quantity").value;
+        counter += Number(quantityInput);
+      }
+
+      this.cartBasketCounter.innerHTML = counter;
+      console.log(counter);
+    }
+  }
 }
 
 export const ui = new UI();

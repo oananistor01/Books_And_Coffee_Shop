@@ -13,8 +13,8 @@ let shippingPrice = document
 window.onload = () => {
   http.get(productsURL).then(() => {
     ui.showProductInCart();
-    ui.navCartIconCounter();
     calculateTotalPrice();
+    ui.navCartIconCounter();
     // updateQuantity(); //only if navCartIconCount is calculated according to the quantity from rows input
 
     cartTable.addEventListener("click", removeFromCartAndLocalStorage);
@@ -39,22 +39,34 @@ function removeFromCartAndLocalStorage(e) {
         localStorage.setItem("cart", JSON.stringify(cart)); //reset the cart from local storage with the new array of products
 
         window.location.reload(); //to refresh the page
-        ui.navCartIconCounter();
         calculateTotalPrice();
+        ui.navCartIconCounter();
         return; //return is for stoping the loop, so other items with the same id wont be deleted alltogether. Only one item gets to be deleted => the clicked one
       }
     }
   }
 }
 
-//when the quantity of the input field is changed, recalculate total price
-//input validation: quantity must be a number between 1 and max.stock
+//when the quantity of the input field is changed, recalculate total price and send the value to local storage
 function updateQuantity(e) {
   if (e.target.classList.contains("quantity")) {
     let input = e.target;
 
+    //input validation: quantity must be a number between 1 and max.stock
     if (isNaN(input.value) || input.value <= 0) {
       input.value = 1;
+    }
+
+    //send the changed quantity of a product from the input field to local storage
+    let idInput = e.target.getAttribute("id");
+
+    let cart = JSON.parse(localStorage.getItem("cart"));
+
+    for (let i = 0; i < cart.length; i++) {
+      if (cart[i].id === idInput) {
+        cart[i].qt = Number(input.value);
+        localStorage.setItem("cart", JSON.stringify(cart));
+      }
     }
 
     calculateTotalPrice();

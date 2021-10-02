@@ -12,12 +12,12 @@ window.onload = () => {
   http.get(productsURL + "/" + id).then((product) => {
     ui.showProductDetails(product);
 
+    product.qt = 1; //we define a new product key called 'qt' (quantity), with a default value of '1' and send it to local storage. This is neccessary, so we can further change the quantity of a specific product directly from the input value
+
     ui.navCartIconCounter(); // cart-icon counter is recalculated
 
-    //if cart isn't existing yet in local storage, the value of the variable 'let cart = null' => therefor we  define it as an empty array
+    //if cart isn't existing yet in local storage, the value of the variable 'cart' = 'null' => therefor we  define it as an empty array
     let cart = JSON.parse(localStorage.getItem("cart"));
-    // console.log(cart);
-
     if (cart === null) {
       cart = [];
       localStorage.setItem("cart", JSON.stringify(cart));
