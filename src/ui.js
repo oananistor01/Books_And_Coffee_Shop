@@ -9,7 +9,7 @@ class UI {
     this.detailsContainer = document.getElementById("details-container");
     this.cartTableBody = document.getElementById("cart-table-body");
     this.showBannerDiv = document.getElementById("details-show-banner");
-    this.cartBasketCounter = document.getElementById("cart-basket-counter");
+    this.cartBasketCounter = document.querySelector(".cart-basket-counter");
   }
 
   //Here I create a card for each book (books only)
@@ -222,40 +222,46 @@ class UI {
   //update cart icon from navbar, when items are added to the shopping cart
 
   /******************************** update cart icon => according to local storage length ************************/
-  // navCartIconCounter() {
-  //   let cart = JSON.parse(localStorage.getItem("cart"));
+  navCartIconCounter() {
+    let cart = JSON.parse(localStorage.getItem("cart"));
 
-  //   if (cart.length > 0) {
-  //     let counter = 0;
+    // let counter = 0;
+    // if (cart.length > 0) {
+    //   for (let i = 0; i < cart.length + 1; i++) {
+    //     // console.log(cart[i].qt);
+    //     counter = counter + cart[i].qt;
 
-  //     for (let i = 0; i < cart.length + 1; i++) {
-  //       console.log(cart[i].qt);
-  //       counter = counter + cart[i].qt;
+    //     // this.cartBasketCounter.innerHTML = counter++;
+    //     this.cartBasketCounter.innerHTML = counter;
+    //   }
+    // }
 
-  //       // this.cartBasketCounter.innerHTML = counter++;
-  //       this.cartBasketCounter.innerHTML = counter;
-  //     }
-  //   }
-  // }
+    let counter = 0;
+    cart.forEach((item) => {
+      counter += item.qt;
+    });
+
+    this.cartBasketCounter.innerHTML = counter;
+  }
 
   /************************* update cart icon => according to quantity input count  ************************/
-  navCartIconCounter() {
-    let table = document.getElementById("cart-table-body");
+  // navCartIconCounter() {
+  //   let table = document.getElementById("cart-table-body");
 
-    if (table) {
-      let counter = 0;
-      let cartRows = table.querySelectorAll(".cart-table-row");
-      console.log(cartRows);
+  //   if (table) {
+  //     let counter = 0;
+  //     let cartRows = table.querySelectorAll(".cart-table-row");
+  //     console.log(cartRows);
 
-      for (let i = 0; i <= cartRows.length - 1; i++) {
-        let quantityInput = cartRows[i].querySelector(".quantity").value;
-        counter += Number(quantityInput);
-      }
+  //     for (let i = 0; i <= cartRows.length - 1; i++) {
+  //       let quantityInput = cartRows[i].querySelector(".quantity").value;
+  //       counter += Number(quantityInput);
+  //     }
 
-      this.cartBasketCounter.innerHTML = counter;
-      console.log(counter);
-    }
-  }
+  //     this.cartBasketCounter.innerHTML = counter;
+  //     console.log(counter);
+  //   }
+  // }
 }
 
 export const ui = new UI();

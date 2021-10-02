@@ -59,7 +59,6 @@ function updateQuantity(e) {
 
     //send the changed quantity of a product from the input field to local storage
     let idInput = e.target.getAttribute("id");
-
     let cart = JSON.parse(localStorage.getItem("cart"));
 
     for (let i = 0; i < cart.length; i++) {
@@ -93,7 +92,7 @@ function calculateTotalPrice() {
     subtotalPrice.innerHTML = "€ " + parseFloat(subtotal).toFixed(2); //toFixed() will round or pad with zeros if necessary to meet the specified length.
   }
 
-  //calculate total price, only if subtotal has a value. This is neccessary, because else it always displays the shopping fee as total amount
+  //calculate total price, only if subtotal has a value. This is neccessary, because otherwise it always displays the shopping fee as total amount
   if (subtotal) {
     total += Number(subtotal) + Number(shippingPrice);
     totalPrice.innerHTML = "€ " + parseFloat(total).toFixed(2);
