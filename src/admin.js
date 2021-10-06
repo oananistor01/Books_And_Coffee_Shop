@@ -163,7 +163,10 @@ function inputValidation() {
     stock.classList.remove("error-input-border");
   }
 
-  if (category.value === "book" || category.value === "coffee") {
+  if (
+    category.value.toLowerCase() === "book" ||
+    category.value.toLowerCase() === "coffee"
+  ) {
     category.classList.remove("error-input-border");
   } else {
     ui.showErrorBanner("Category must be either 'book' or 'coffee'!");
