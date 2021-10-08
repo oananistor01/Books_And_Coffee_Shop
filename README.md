@@ -1,6 +1,7 @@
 # Books_And_Coffee_Shop
 
 Online shop for books and coffee lovers.
+
 Direct Link: https://oananistor01.github.io/Books_And_Coffee_Shop/
 
 Online e-commerce, created during the web development course, using Bootstrap and vanilla JavaScript. Fully functional and responsive up to checkout. This is my first complete web application. 
