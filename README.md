@@ -1,6 +1,6 @@
 # Books_And_Coffee_Shop
 
-Online shop for books and coffee lovers.
+Online shop for books and coffee lovers. A complete web application.
 
 Direct Link: https://oananistor01.github.io/Books_And_Coffee_Shop/
 
